@@ -25,7 +25,7 @@ const Task = ({ value, deleteTodo, setCount1, count1 }) => {
       <div
         style={
           line === true
-            ? { textDecoration: `line-through` }
+            ? { textDecoration: `line-through`, color: `gray` }
             : { textDecoration: `none` }
         }
       >
